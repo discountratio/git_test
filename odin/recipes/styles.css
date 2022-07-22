@@ -1,0 +1,28 @@
+body{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.recipe--combine{
+    display: flex;
+    align-items: flex-start;
+background-color: black;
+}
+.recipe--article{
+    width: 200px;
+    background: red;
+    padding: 5px;
+}
+
+.recipe--items{
+    list-style: none;
+    padding: 0;
+    text-indent: 1em;
+}
+.item--size{
+    font-weight: 600;
+}
+.recipe--list{
+    background: green;
+}
